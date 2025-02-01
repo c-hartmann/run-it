@@ -9,7 +9,10 @@ https://discuss.kde.org/t/using-konsole-how-to-open-a-folder-in-dolphin-then-aut
 
 ## install hints
 
-Installing via Configure Dolphin might fail for the flatpak variant. This service menu file goes to:
+Installing via Configure Dolphin might failed for me with the flatpak variant, so you might have to create the menu entry manualy by sourself.
+
+This service menu file goes to:
+
 
 ```
 $HOME/.var/app/org.kde.dolphin/data/kio/servicemenus/run-it.desktop

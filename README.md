@@ -7,3 +7,11 @@ option, so Konsole can exit after running the script.
 
 https://discuss.kde.org/t/using-konsole-how-to-open-a-folder-in-dolphin-then-automatically-konsole-returns-to-its-command-line/
 
+## install hints
+
+Installing via Configure Dolphin might fail for the flatpak variant. This service menu file goes to:
+
+```
+$HOME/.var/app/org.kde.dolphin/data/kio/servicemenus/run-it.desktop
+```
+

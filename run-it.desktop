@@ -1,0 +1,14 @@
+[Desktop Entry]
+Type=Service
+Name=Run It!
+MimeType=application/x-shellscript
+X-KDE-ServiceTypes=KonqPopupMenu/Plugin
+Icon=org.kde.konsole
+Actions=RunIt
+
+[Desktop Action RunIt]
+Name=Run In Konsole (NHE)
+Name[fr]=Lancer dans Konsole (NHE)
+Name[de]=In Konsole ausführen (NHE)
+Icon=org.kde.konsole
+Exec=bash -c 'konsole_avails=($(type -p konsole) "flatpak run org.kde.konsole"); konsole_command="${konsole_avails[0]}"; $konsole_command -e "%f"'

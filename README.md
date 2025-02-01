@@ -18,3 +18,14 @@ This service menu file goes to:
 $HOME/.var/app/org.kde.dolphin/data/kio/servicemenus/run-it.desktop
 ```
 
+Regular service menu file goes to:
+
+
+```
+$HOME/.local/share/kio/servicemenus/run-it.desktop
+```
+
+## errors
+
+The konsole icon does not show up in flatpak installation.
+

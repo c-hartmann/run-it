@@ -1,9 +1,7 @@
 [Desktop Entry]
 Type=Service
 Name=Run It!
-Name[nl]=Voer maar uit!
 MimeType=application/x-shellscript
-X-KDE-ServiceTypes=KonqPopupMenu/Plugin
 Icon=org.kde.konsole
 Actions=RunIt
 
